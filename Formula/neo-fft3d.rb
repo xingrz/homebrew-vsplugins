@@ -7,6 +7,7 @@ class NeoFft3d < Formula
 
   depends_on "cmake" => :build
   depends_on "vapoursynth"
+  depends_on "fftw"
 
   stable do
     patch :DATA
